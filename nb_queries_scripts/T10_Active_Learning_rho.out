@@ -1,0 +1,92 @@
+cd svm_light; make svm_learn_hideo_noexe
+make[1] : on entre dans le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random60/svm_light »
+make[1]: Rien à faire pour « svm_learn_hideo_noexe ».
+make[1] : on quitte le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random60/svm_light »
+cd svm_struct; make svm_struct_noexe
+make[1] : on entre dans le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random60/svm_struct »
+make[1]: Rien à faire pour « svm_struct_noexe ».
+make[1] : on quitte le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random60/svm_struct »
+gcc  -O3 -lm -Wall svm_struct/svm_struct_learn.o svm_struct_learn_custom.o svm_struct_api.o svm_light/svm_hideo.o svm_light/svm_learn.o svm_light/svm_common.o svm_struct/svm_struct_common.o svm_struct/svm_struct_main.o -o svm_rank_learn -L. -lm                    
+gcc  -O3 -lm -Wall svm_struct_api.o svm_struct/svm_struct_classify.o svm_light/svm_common.o svm_struct/svm_struct_common.o -o svm_rank_classify -L. -lm                    
+Random60
+
+T10I4D100K :: Number of AR :: 75000 :: Target Rho ::0.0
+75000finiehsed Learning AHP :: 7.0
+finiehsed Learning SVM :: 15.0
+finiehsed ranking :: 1
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 2
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 3
+finiehsed Learning AHP :: 7.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 4
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 5
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 6
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 7
+finiehsed Learning AHP :: 2.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 8
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 23.0
+finiehsed ranking :: 9
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 17.0
+finiehsed ranking :: 10
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 22.0
+finiehsed ranking :: 11
+finiehsed Learning AHP :: 2.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 12
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 19.0
+finiehsed ranking :: 13
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 152.0
+finiehsed ranking :: 14
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 15
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 37.0
+finiehsed ranking :: 16
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 45.0
+finiehsed ranking :: 17
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 103.0
+finiehsed ranking :: 18
+finiehsed Learning AHP :: 3.0
+finiehsed Learning SVM :: 51208.0
+finiehsed ranking :: 19
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 39.0
+finiehsed ranking :: 20
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 15.0
+finiehsed ranking :: 21
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 16.0
+finiehsed ranking :: 22
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 12.0
+finiehsed ranking :: 23
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 1718009.0
+finiehsed ranking :: 24
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 53.0
+finiehsed ranking :: 25
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 17.0
+finiehsed ranking :: 26
+finiehsed Learning AHP :: 2.0

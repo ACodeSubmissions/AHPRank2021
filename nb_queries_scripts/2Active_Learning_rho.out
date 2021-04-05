@@ -1,0 +1,632 @@
+cd svm_light; make svm_learn_hideo_noexe
+make[1] : on entre dans le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random20/svm_light »
+make[1]: Rien à faire pour « svm_learn_hideo_noexe ».
+make[1] : on quitte le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random20/svm_light »
+cd svm_struct; make svm_struct_noexe
+make[1] : on entre dans le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random20/svm_struct »
+make[1]: Rien à faire pour « svm_struct_noexe ».
+make[1] : on quitte le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random20/svm_struct »
+gcc  -O3 -lm -Wall svm_struct/svm_struct_learn.o svm_struct_learn_custom.o svm_struct_api.o svm_light/svm_hideo.o svm_light/svm_learn.o svm_light/svm_common.o svm_struct/svm_struct_common.o svm_struct/svm_struct_main.o -o svm_rank_learn -L. -lm                    
+gcc  -O3 -lm -Wall svm_struct_api.o svm_struct/svm_struct_classify.o svm_light/svm_common.o svm_struct/svm_struct_common.o -o svm_rank_classify -L. -lm                    
+Random20
+
+anneal :: Number of AR :: 5000 :: Target Rho ::0.0
+5000finiehsed Learning AHP :: 8.0
+finiehsed Learning SVM :: 32.0
+finiehsed ranking :: 1
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 20.0
+finiehsed ranking :: 2
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 3
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 8.0
+finiehsed ranking :: 4
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 11.0
+finiehsed ranking :: 5
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 6
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 7
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 76.0
+finiehsed ranking :: 8
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 144.0
+finiehsed ranking :: 9
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 31.0
+finiehsed ranking :: 10
+finiehsed Learning AHP :: 30.0
+finiehsed Learning SVM :: 80.0
+finiehsed ranking :: 11
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 79.0
+finiehsed ranking :: 12
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 13
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 14
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 15
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 16
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 17
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 18
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 19
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 20
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 21
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 9.0
+finiehsed ranking :: 22
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 23
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 24
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 25
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 26
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 27
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 28
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 29
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 30
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 31
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 65.0
+finiehsed ranking :: 32
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 33
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 34
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 35
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 36
+finiehsed Learning AHP :: 2.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 37
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 38
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 39
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 40
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 41
+finiehsed Learning AHP :: 2.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 42
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 43
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 40.0
+finiehsed ranking :: 44
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 33.0
+finiehsed ranking :: 45
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 44.0
+finiehsed ranking :: 46
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 38.0
+finiehsed ranking :: 47
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 48.0
+finiehsed ranking :: 48
+finiehsed Learning AHP :: 8.0
+finiehsed Learning SVM :: 43.0
+finiehsed ranking :: 49
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 48.0
+finiehsed ranking :: 50
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 31.0
+finiehsed ranking :: 51
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 33.0
+finiehsed ranking :: 52
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 38.0
+finiehsed ranking :: 53
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 36.0
+finiehsed ranking :: 54
+finiehsed Learning AHP :: 3.0
+finiehsed Learning SVM :: 40.0
+finiehsed ranking :: 55
+finiehsed Learning AHP :: 4.0
+finiehsed Learning SVM :: 42.0
+finiehsed ranking :: 56
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 38.0
+finiehsed ranking :: 57
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 207.0
+finiehsed ranking :: 58
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 39.0
+finiehsed ranking :: 59
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 36.0
+finiehsed ranking :: 60
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 11.0
+finiehsed ranking :: 61
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 62
+finiehsed Learning AHP :: 2.0
+finiehsed Learning SVM :: 13.0
+finiehsed ranking :: 63
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 64
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 65
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 66
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 67
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 68
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 69
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 70
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 71
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 72
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 73
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 74
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 75
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 76
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 77
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 78
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 79
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 80
+finiehsed Learning AHP :: 2.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 81
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 82
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 44.0
+finiehsed ranking :: 83
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 84
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 85
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 86
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 87
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 88
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 89
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 90
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 91
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 92
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 93
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 94
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 95
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 96
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 97
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 98
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 99
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 100
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 10.0
+finiehsed ranking :: 101
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 102
+finiehsed Learning AHP :: 4.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 103
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 104
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 105
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 106
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 107
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 108
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 109
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 110
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 111
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 112
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 113
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 114
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 115
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 116
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 117
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 118
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 119
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 120
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 121
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 122
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 123
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 124
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 125
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 126
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 127
+finiehsed Learning AHP :: 21.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 128
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 129
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 130
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 131
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 132
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 133
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 134
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 135
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 136
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 137
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 138
+finiehsed Learning AHP :: 34.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 139
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 140
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 141
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 142
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 227.0
+finiehsed ranking :: 143
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 144
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 145
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 146
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 147
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 148
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 149
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 150
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 151
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 152
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 153
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 154
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 155
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 9.0
+finiehsed ranking :: 156
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 157
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 158
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 159
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 160
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 161
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 162
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 163
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 164
+finiehsed Learning AHP :: 7.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 165
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 166
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 167
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 168
+Contains Query
+finiehsed Learning AHP :: 28.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 169
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 170
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 57.0
+finiehsed ranking :: 171
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 172
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 173
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 174
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 175
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 176
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 177
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 178
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 179
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 180
+finiehsed Learning AHP :: 10.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 181
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 182
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 183
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 184
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 185
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 186
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 187
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 188
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 189
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 190
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 191
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 192
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 193
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 194
+finiehsed Learning AHP :: 16.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 195
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 196
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 197
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 198
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 199
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 200
+Successfully wrote to the file.

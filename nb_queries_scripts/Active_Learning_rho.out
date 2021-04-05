@@ -1,0 +1,1582 @@
+cd svm_light; make svm_learn_hideo_noexe
+make[1] : on entre dans le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random100/svm_light »
+make[1]: Rien à faire pour « svm_learn_hideo_noexe ».
+make[1] : on quitte le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random100/svm_light »
+cd svm_struct; make svm_struct_noexe
+make[1] : on entre dans le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random100/svm_struct »
+make[1]: Rien à faire pour « svm_struct_noexe ».
+make[1] : on quitte le répertoire « /nfs/home/belmecherin/ECMLPKDD2021-src/SVM_Random100/svm_struct »
+gcc  -O3 -lm -Wall svm_struct/svm_struct_learn.o svm_struct_learn_custom.o svm_struct_api.o svm_light/svm_hideo.o svm_light/svm_learn.o svm_light/svm_common.o svm_struct/svm_struct_common.o svm_struct/svm_struct_main.o -o svm_rank_learn -L. -lm                    
+gcc  -O3 -lm -Wall svm_struct_api.o svm_struct/svm_struct_classify.o svm_light/svm_common.o svm_struct/svm_struct_common.o -o svm_rank_classify -L. -lm                    
+Random100
+
+zoo :: Number of AR :: 500 :: Target Rho ::0.0
+500finiehsed Learning AHP :: 5.0
+finiehsed Learning SVM :: 41.0
+finiehsed ranking :: 1
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 2
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 3
+finiehsed Learning AHP :: 2.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 4
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 5
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 1940.0
+finiehsed ranking :: 6
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 7
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 8
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 9
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 10
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 11
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 12
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 13
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 11.0
+finiehsed ranking :: 14
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 13.0
+finiehsed ranking :: 15
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 13.0
+finiehsed ranking :: 16
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 17
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 18
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 10.0
+finiehsed ranking :: 19
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 15.0
+finiehsed ranking :: 20
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 9.0
+finiehsed ranking :: 21
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 22
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 23
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 24
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 25
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 12.0
+finiehsed ranking :: 26
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 27
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 9.0
+finiehsed ranking :: 28
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 30.0
+finiehsed ranking :: 29
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 12.0
+finiehsed ranking :: 30
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 31
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 32
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 3.0
+finiehsed ranking :: 33
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 34
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 35
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 36
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 37
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 38
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 39
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 40
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 41
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 42
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 43
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 48.0
+finiehsed ranking :: 44
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 40.0
+finiehsed ranking :: 45
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 48.0
+finiehsed ranking :: 46
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 45.0
+finiehsed ranking :: 47
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 40.0
+finiehsed ranking :: 48
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 49.0
+finiehsed ranking :: 49
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 40.0
+finiehsed ranking :: 50
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 33.0
+finiehsed ranking :: 51
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 57.0
+finiehsed ranking :: 52
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 50.0
+finiehsed ranking :: 53
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 43.0
+finiehsed ranking :: 54
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 37.0
+finiehsed ranking :: 55
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 55.0
+finiehsed ranking :: 56
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 32.0
+finiehsed ranking :: 57
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 49.0
+finiehsed ranking :: 58
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 33.0
+finiehsed ranking :: 59
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 57.0
+finiehsed ranking :: 60
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 32.0
+finiehsed ranking :: 61
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 40.0
+finiehsed ranking :: 62
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 79.0
+finiehsed ranking :: 63
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 60.0
+finiehsed ranking :: 64
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 80.0
+finiehsed ranking :: 65
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 79.0
+finiehsed ranking :: 66
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 41.0
+finiehsed ranking :: 67
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 77.0
+finiehsed ranking :: 68
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 73.0
+finiehsed ranking :: 69
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 82.0
+finiehsed ranking :: 70
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 63.0
+finiehsed ranking :: 71
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 42.0
+finiehsed ranking :: 72
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 72.0
+finiehsed ranking :: 73
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 35.0
+finiehsed ranking :: 74
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 75
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 76
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 77
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 78
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 79
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 80
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 81
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 82
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 4.0
+finiehsed ranking :: 83
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 84
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 85
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 86
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 87
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 88
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 89
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 90
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 91
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 92
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 93
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 94
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 95
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 96
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 97
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 98
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 99
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 100
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 101
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 102
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 103
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 104
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 105
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 106
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 107
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 108
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 109
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 110
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 111
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 112
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 113
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 114
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 115
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 116
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 117
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 118
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 119
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 120
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 121
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 122
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 123
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 124
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 125
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 126
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 127
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 128
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 129
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 130
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 131
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 132
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 133
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 134
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 135
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 136
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 137
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 138
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 139
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 140
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 141
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 142
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 143
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 144
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 145
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 146
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 147
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 148
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 149
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 150
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 151
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 152
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 153
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 154
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 155
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 156
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 157
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 158
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 159
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 160
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 161
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 162
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 163
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 164
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 165
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 166
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 167
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 168
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 169
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 170
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 171
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 172
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 173
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 174
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 175
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 176
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 177
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 178
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 179
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 180
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 32.0
+finiehsed ranking :: 181
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 14.0
+finiehsed ranking :: 182
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 183
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 5.0
+finiehsed ranking :: 184
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 185
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 186
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 187
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 188
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 189
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 190
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 191
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 192
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 1.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 193
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 194
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 6.0
+finiehsed ranking :: 195
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 47.0
+finiehsed ranking :: 196
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 45.0
+finiehsed ranking :: 197
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 40.0
+finiehsed ranking :: 198
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 7.0
+finiehsed ranking :: 199
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+Contains Query
+finiehsed Learning AHP :: 0.0
+finiehsed Learning SVM :: 9.0
+finiehsed ranking :: 200
+Successfully wrote to the file.
