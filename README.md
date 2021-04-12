@@ -18,15 +18,8 @@ java -jar AHPRank_Run_Passive_chain.jar \<dataset> p \<nb_folds> \<timeout(ms)> 
 ### Example: 
 java -jar AHPRank_Run_Passive_chain.jar zoo p 5 3600000 10
 
-## Active Learning Cross-Validation:
 
-java -jar AHPRank_Run_Passive_chain.jar \<dataset> \<querysize> \<nb_folds> \<timeout(ms)> \<number of runs>
-
-### Example:
-java  -jar AHPRank_Run_Passive_chain.jar zoo 2 5 3600000 10
-
-
-## Passive Learning Cross-Validation Training size:
+## Passive Learning Training size:
 java -jar AHPRank_Run_Passive_TS.jar  \<dataset> \<trainingsize>  \<number of runs> \<timeout(ms)>
   
 ### Example:
