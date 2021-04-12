@@ -30,7 +30,7 @@ java -jar AHPRank_Run_TS.jar retail 10 10 3600000
 
 java -jar AHPRank_Run_Active_rho.jar \<dataset> \<querysize> \<max number of iterations> \<timeout (ms)> \<RankingSVMfolderid> 
 
-<RankingSVMfolderid> example : 10 (for multiple parallel launches) 
+<RankingSVMfolderid> example : 10
  
  
  
